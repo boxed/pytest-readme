@@ -1,1 +1,3 @@
 test_readme.py
+pytest_readme.egg-info
+dist

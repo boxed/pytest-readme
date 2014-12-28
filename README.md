@@ -24,12 +24,21 @@ Note also that any blocks of python code without asserts is treated as pytest st
 
 Doctest style:
 
+You will need to add the `doctest-modules` flag to your test runs. I recommend creating a pytest.ini file and having the following contents in it to make this automatic: 
+
+```
+[pytest]
+addopts = --doctest-modules
+```
+
+Example:
+
 ```python
 >>> 1 + 1
 2
 ```
 
-Pytest style:
+Pytest style example:
 
 ```python
 assert 1 + 1 == 2

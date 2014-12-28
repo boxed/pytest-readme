@@ -16,6 +16,7 @@ def setup():
             elif mode is 'first_line':
                 if line.strip() == '':
                     mode = None
+                    output[i - 1] = '\n'
                     continue
                 if line.strip().startswith('>>>'):
                     mode = 'doctest'
