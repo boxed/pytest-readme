@@ -52,3 +52,14 @@ Badge
 You can show that your README is tested with this badge: [![Examples tested with pytest-readme](http://img.shields.io/badge/readme-tested-brightgreen.svg)](https://github.com/boxed/pytest-readme) Copy paste the markdown syntax below:
 
     [![Examples tested with pytest-readme](http://img.shields.io/badge/readme-tested-brightgreen.svg)](https://github.com/boxed/pytest-readme)
+
+
+Development
+===========
+To quickly get started, run the following commands:
+
+```sh
+uv venv
+uv pip install -e .
+.venv/bin/python -m pytest
+```
