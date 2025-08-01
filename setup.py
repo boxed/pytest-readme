@@ -12,7 +12,7 @@ with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
 setup(
     name='pytest-readme',
 
-    version='1.0.1',
+    version='1.0.2',
 
     description='Test your README.md file',
     long_description=long_description,
